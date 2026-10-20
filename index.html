@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pavi Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Welcome to Pavi Store!</h1>
+    <p>Your favourite shopping website.</p>
+
+    <h2>Our Products</h2>
+    <p>Cart Items: <span id="cart-count">0</span></p>
+    <h2>Your Shopping Cart</h2>
+<ul id="cart-list"></ul>
+<p>Total: ₹<span id="cart-total">0</span></p>
+
+    <div>
+        <h3>Headphones</h3>
+        <p>Price: ₹999</p>
+        <button onclick="addToCart('Headphones', 999)">Add to Cart</button>
+    </div>
+
+    <div>
+        <h3>Watch</h3>
+        <p>Price: ₹1499</p>
+        <button onclick="addToCart('Watch', 1499)">Add to Cart</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
